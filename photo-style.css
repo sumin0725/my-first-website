@@ -1,37 +1,10 @@
-.Box {
-  width: 450px;
-  height: 450px;
-  border-radius: 20%;
-  overflow: hidden; margin: auto; border: 2px solid gray;
-  margin-top: 80px;
-}
-
-.profile {
-  width: 100%;
-  height: 550px;
-  object-fit: cover;
-}
-
+h1 {
+  text-align: center;
+  margin-top: 50px;
 }
 
 img {
   vertical-align: text-bottom;
-}
-
-h1 {
-  text-align: center;
-  margin: 0px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  text-align: center;
-  margin: 0px;
-}
-
-h3 {
-  text-align: center;
-  margin: 10px;
 }
 
 li {
@@ -43,11 +16,6 @@ a {
   text-decoration: none;
   color: black;
   font-size: 25px;
-}
-
-p {
-  font-size: 20px;
-  text-align: center;
 }
 
 .home{
@@ -80,12 +48,6 @@ p {
   border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A
 }
 
-.icons img:hover {
-  transition: 0.3s;
-  transform: scale(1.2);
-  border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A
-}
-
 .sns li {
   text-align:right ;
   margin-right: 30px;
@@ -101,4 +63,48 @@ p {
   position: absolute;
   right: 30px;
   top: 8px;
+}
+.dog-photo {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.dog-photo2 {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.dog-photo3 {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.dog-photo img {
+   margin-left: 20px;
+   border-radius: 5%;
+   transition: 0.3s;
+}
+
+.dog-photo2 img {
+   margin-left: 20px;
+   border-radius: 5%;
+   transition: 0.3s;
+}
+
+.dog-photo3 img {
+   margin-left: 20px;
+   border-radius: 5%;
+   transition: 0.3s;
+}
+
+.dog-photo img:hover {
+  transform: scale(1.4);
+}
+
+.dog-photo2 img:hover {
+  transform: scale(1.4);
+}
+
+.dog-photo3 img:hover {
+  transform: scale(1.4);
 }
