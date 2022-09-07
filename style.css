@@ -77,13 +77,13 @@ p {
 .menu-bar a:hover {
   transition: 0.3s;
   font-size: 28px;
-  border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A
+  border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A;
 }
 
 .icons img:hover {
   transition: 0.3s;
   transform: scale(1.2);
-  border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A
+  filter: invert(100%);
 }
 
 .sns li {
@@ -94,7 +94,7 @@ p {
 .sns img:hover {
   transition: 0.3s;
   transform: scale(1.2);
-  border-bottom-width:5px; border-bottom-style:solid; border-bottom-color:#FF675A
+  filter: invert(100%);
 }
 
 .sns {
